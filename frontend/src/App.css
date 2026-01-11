@@ -1,0 +1,59 @@
+/* App-level layout helpers */
+
+.app-container {
+  min-height: 100vh;
+  background-color: #f4f6f8;
+}
+
+/* Center content sections if needed */
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Links */
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons (shared styles) */
+button {
+  font-family: inherit;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Small helper text */
+.text-muted {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+/* Simple spacing helpers */
+.mt-1 { margin-top: 8px; }
+.mt-2 { margin-top: 16px; }
+.mt-3 { margin-top: 24px; }
+
+.mb-1 { margin-bottom: 8px; }
+.mb-2 { margin-bottom: 16px; }
+.mb-3 { margin-bottom: 24px; }
+
+/* Form error text (if you add later) */
+.error-text {
+  color: crimson;
+  font-size: 13px;
+  margin-top: 6px;
+}
+
+::-webkit-scrollbar{
+  display :hidden
+}
